@@ -1,0 +1,113 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ffy</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #ffff00; /* Yellow */
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+section {
+  padding: 20px;
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  min-height: 15vh;
+}
+
+.cta-button {
+  background-color: #ffff00; /* Yellow */
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00; /* Lighter Yellow */
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  section {
+    width: 50%;
+    padding: 30px;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Ffy</h1>
+</header>
+<div class="container">
+  <section>
+    <h2>About Ffy</h2>
+    <p>Gggg.  This detailed description elaborates on the core functionality and purpose of Ffy. It delves into the specifics of its features, explaining how it benefits users and addresses their needs.  Further information can be found within the subsequent sections.  Ffy is a cutting-edge solution designed to streamline and enhance various aspects of daily life.</p>
+  </section>
+  <section>
+    <h2>Features</h2>
+    <ul>
+      <li>Feature 1: Detailed explanation of the first key feature.</li>
+      <li>Feature 2:  A thorough description of the second prominent feature.</li>
+      <li>Feature 3:  Comprehensive explanation of the third important feature, highlighting its benefits.</li>
+    </ul>
+    <img src="https://res.cloudinary.com/dseiakb3q/image/upload/v1732887679/clmcomp1erlrqwzbwvzq.jpg" alt="Ffy Image">
+  </section>
+</div>
+<footer>
+  <p>Contact: Ggg</p>
+  <a href="#" class="cta-button">Learn More</a>
+</footer>
+</body>
+</html>
+
+
